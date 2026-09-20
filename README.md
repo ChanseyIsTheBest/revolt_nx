@@ -30,6 +30,9 @@ RVGL reads the pad as an SDL game controller, so the game's own bindings apply. 
 
 Optionally drop a cursor.png (up to 64×64, transparency respected) beside the NRO to replace the built-in arrow.
 
+## Multiplayer
+Local multiplayer works across devices i.e. Android, Windows on the same Wi-Fi network just leave the Computer Name field empty and attempt to connect.
+
 ## Building
 ```
 Requires devkitPro with the switch-dev group plus these portlibs. switch-sdl2_image is optional — RVGL imports four of its symbols and the build stands in for them when it is absent.
