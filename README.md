@@ -19,14 +19,15 @@ Launch via title override (hold R while starting an installed game).
 ## Controls
 
 RVGL reads the pad as an SDL game controller, so the game's own bindings apply. Text entry uses the Switch software keyboard.
-```
-Input	Action
-Pad	The game as designed — remappable in RVGL's own menus
-Wheel or keyboard	Name entry; both work
-ZL + ZR	Toggle the on-screen cursor
-Left stick (cursor up)	Move the cursor
-B (cursor up)	Tap at the cursor — hold to drag
-```
+
+| Input | Action |
+|---|---|
+| Pad | The game as designed — remappable in RVGL's own menus |
+| Wheel or keyboard | Name entry; both work |
+| ZL + ZR | Toggle the on-screen cursor |
+| Left stick (cursor up) | Move the cursor |
+| A (cursor up) | Tap at the cursor — hold to drag |
+
 Optionally drop a cursor.png (up to 64×64, transparency respected) beside the NRO to replace the built-in arrow.
 
 ## Building
